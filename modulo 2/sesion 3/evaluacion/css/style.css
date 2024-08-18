@@ -1,0 +1,56 @@
+/* Estilos generales para la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f4f4;
+    height: 100vh;
+}
+
+/* Estilo para el encabezado */
+h1 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Contenedor de botones */
+.button-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+/* Estilos para los botones */
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.primary-btn {
+    background-color: #3498db;
+}
+
+.secondary-btn {
+    background-color: #2ecc71;
+}
+
+.success-btn {
+    background-color: #27ae60;
+}
+
+.danger-btn {
+    background-color: #e74c3c;
+}
+
+/* Efecto hover para los botones */
+button:hover {
+    opacity: 0.8;
+}

@@ -1,0 +1,23 @@
+body{
+    font-family: Verdana;
+    background-color: black;
+    color: white;
+}
+h1{
+    text-align: center;
+}
+h1 img{
+    padding-right: 2%;
+    border-radius: 30%;
+}
+.texto{
+    text-align: justify;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.img{
+    text-align: center;
+}
+.pie{
+    text-align: right;
+}

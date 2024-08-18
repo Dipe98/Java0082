@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AeroVia Express</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand text-light" href="#">AeroVia Express</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Ofertas y destinos <span class="flechita"></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light flechita" href="#">Mis viajes <span class="flechita"></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Centro de ayuda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Estado de vuelo</a>
+                    </li>
+                </ul>
+                <button class="btn login-button text-light">Iniciar sesión</button>
+            </div>
+        </div>
+    </nav>
+    <div class="promo-section">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-md-8">
+                    <h2>¡Vacaciones de verano!</h2>
+                    <p>Vuela por Chile y Sudamérica con hasta 40% de descuento.</p>
+                    <p>Encuentra paquetes, hoteles, seguros y arriendo de autos en AeroVia Express.</p>
+                    <p><a href="#">Compra aqui</a></p>
+                </div>
+                <div class="col-md-4 p-0">
+                    <img src="img/polynesia.jpg" alt="Promoción de verano" class="img-fluid w-100 h-100">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5">
+        <div class="form-section p-4 rounded bg-light shadow">
+            <nav>
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                    <a class="nav-link active disabled" id="nav-home-tab" data-bs-toggle="tab" href="#nav-home"
+                        role="tab" aria-controls="nav-home" aria-selected="true">Vuelos</a>
+                    <a class="nav-link disabled" id="nav-packages-tab" data-bs-toggle="tab" href="#nav-packages"
+                        role="tab" aria-controls="nav-packages" aria-selected="false">Paquetes</a>
+                    <a class="nav-link disabled" id="nav-hotels-tab" data-bs-toggle="tab" href="#nav-hotels" role="tab"
+                        aria-controls="nav-hotels" aria-selected="false">Hoteles</a>
+                    <a class="nav-link disabled" id="nav-cars-tab" data-bs-toggle="tab" href="#nav-cars" role="tab"
+                        aria-controls="nav-cars" aria-selected="false">Autos</a>
+                    <a class="nav-link disabled" id="nav-insurance-tab" data-bs-toggle="tab" href="#nav-insurance"
+                        role="tab" aria-controls="nav-insurance" aria-selected="false">Seguros</a>
+                    <a class="nav-link disabled" id="nav-upgrade-tab" data-bs-toggle="tab" href="#nav-upgrade"
+                        role="tab" aria-controls="nav-upgrade" aria-selected="false">Upgrade</a>
+                </div>
+            </nav>
+            <form>
+                <fieldset disabled>
+                    <div class="form-inline mt-3 mx-2">
+                        <div class="form-group">
+                            <label class="form-label">Ida y Vuelta</label>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label mx-3">Economy</label>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label mx-3">1 pasajero</label>
+                        </div>
+                    </div>
+                    <div class="form-inline mt-mg-3">
+                        <div class="form-group col">
+                            <input type="text" class="form-control" id="origin" placeholder="Origen" required>
+                        </div>
+                        <div class="form-group col">
+                            <input type="text" class="form-control" id="destination" placeholder="Destino" required>
+                        </div>
+                        <div class="form-group col">
+                            <input type="text" class="form-control" id="origin" placeholder="Ingrese el origen" required
+                                value="Fecha Ida">
+                        </div>
+                        <div class="form-group col">
+                            <input type="date" class="form-control" id="departureDate" required>
+                        </div>
+                        <div class="form-group col">
+                            <input type="text" class="form-control" id="origin" placeholder="Ingrese el origen" required
+                                value="Fecha Vuelta">
+                        </div>
+                        <div class="form-group col">
+                            <input type="date" class="form-control" id="returnDate" disabled>
+                        </div>
+                        <div class="form-group col">
+                            <button type="submit" class="btn btn-danger">Buscar</button>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

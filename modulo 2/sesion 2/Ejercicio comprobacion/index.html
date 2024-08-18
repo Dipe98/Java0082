@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <!-- Enlace al archivo de estilos CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <!-- Creación de formulario -->
+    <div class="container">
+        
+        <h1>Formulario</h1>
+
+        <form id="contactForm">
+            <label for="nombre">NOMBRE:</label>
+            <input type="text" id="nombre" name="nombre" required>
+ 
+            <label for="direccion">DIRECCIÓN:</label>
+            <input type="text" id="direccion" name="direccion" required>
+
+            <label for="especialidad">ESPECIALIDAD MÉDICA:</label>
+            <select id="especialidad" name="especialidad" required>
+                <option value="medicina_interna">MEDICINA INTERNA</option>
+                <option value="medicina_general">MEDICINA GENERAL</option>
+                <option value="traumatologia">TRAUMATOLOGÍA</option>
+                <option value="nutricionista">NUTRICIONISTA</option>
+            </select>
+ 
+            <label for="date">FECHA:</label>
+            <input type="date" id="date" name="date" required>
+ 
+            <label for="time">HORA:</label>
+            <input type="time" id="time" name="time" required>
+ 
+            <label for="email">CORREO ELECTRÓNICO:</label>
+            <input type="email" id="email" name="email" required>
+
+            <button type="submit">Enviar</button>
+        </form>
+        <p id="response"></p>
+    </div>
+
+    <!-- Enlace al archivo de JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
+

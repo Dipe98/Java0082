@@ -1,0 +1,41 @@
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.rojo { background-color: #FF0000; 
+}
+.blanco { background-color: #FFFFFF; 
+    color: black; }
+.verde { background-color: #0a570ad0;
+ }
+.gris { background-color: #808080;
+ }
+.cafe { background-color: #8B4513; 
+}
+.azul { background-color: #0000FF; 
+}
+.violeta { background-color: #EE82EE; 
+}
+.rosado { background-color: #FFC0CB;
+     color: black; 
+    }
+.amarillo { background-color: #FFFF00; 
+    color: black; 
+}
+.turquesa { background-color: #40E0D0; 
+}
+.naranjo { background-color: #FFA500; 
+}
+.purpura { background-color: #800080; 
+}
+.negro { background-color: #000000; 
+}

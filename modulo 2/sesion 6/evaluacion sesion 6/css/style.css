@@ -1,0 +1,60 @@
+body {
+    font-family: Verdana;
+}
+
+.navbar {
+    background-color: #051B54;
+}
+
+.navbar-brand {
+    font-family: "Gill Sans";
+}
+
+.login-button {
+    background-color: #FFFFFF33;
+}
+
+.promo-section {
+    background-color: #62DAD3;
+}
+
+.form-section .form-label {
+    color: #051B54;
+    position: relative;
+}
+
+.form-section .form-label::after {
+    content: '\25BC';
+    font-size: 0.75em;
+    color: #051B54;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+
+.form-inline {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-inline .form-group {
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+.form-inline .form-group:last-child {
+    margin-right: 0;
+}
+
+.nav-link .flechita {
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 6px solid white;
+    display: inline-block;
+    margin-left: 5px;
+    vertical-align: middle;
+}
